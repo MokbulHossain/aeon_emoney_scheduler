@@ -1,0 +1,28 @@
+{
+  "name": "scheduler",
+  "version": "1.0.0",
+  "description": "scheduler",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "set DEBUG=info,errorLog,warning & nodemon --exec babel-node index.js"
+  },
+  "author": "mokbul",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/runtime": "^7.8.3",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "node-cron": "^2.0.3",
+    "sequelize": "^5.21.3",
+    "tedious": "^9.2.3"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.8.3",
+    "@babel/node": "^7.8.3",
+    "@babel/plugin-transform-runtime": "^7.8.3",
+    "@babel/preset-env": "^7.8.3",
+    "@babel/register": "^7.8.3",
+    "nodemon": "^2.0.2"
+  }
+}
